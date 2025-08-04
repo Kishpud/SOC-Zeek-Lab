@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2025-08-04-12-07-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1754309261.204024	Cms77q21pBrSQW0nte	192.168.64.28	55600	142.250.76.110	80	1	GET	clients2.google.com	/time/1/current?cup2key=9:FeRnZhacJk-pMoxOlGtOOiJQznKbY_DWihSnqbXTiMQ&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	-	1.1	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36	-	0	80	200	OK	-	-	(empty)	-	-	-	-	-	-	FI5tIV1PajQAimjTH8	json.txt	text/plain11754342924.548673	Cai87ICbWzgRqbDT3	192.168.64.28	37218	142.250.76.110	80	1	GET	clients2.google.com	/time/1/current?cup2key=9:JOMVpUGECP6dQt7HfwkwmFpsNneOtfADVN81rmOAL58&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	-	1.1	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36	-	0	81	200	OK	-	-	(empty)	-	-	-	-	-	-	FQBLUm2huFDq5UjRf1	json.txt	text/plain
